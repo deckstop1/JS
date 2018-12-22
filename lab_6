@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  /*  var question = prompt("в каком году ты поступил в кипу", "")
+    if (question!=2018) {
+    alert ("не правильно")
+    alert ("подумай хорошо")
+  }
+  //
+  var question = prompt('В каком году поступил в КИПУ?', ' ')
+if (question != 2018)
+    alert( 'Не правильно!' )
+else
+    alert( 'Привет, первокурсник!' )
+//
+  var a = prompt("SSS", "")
+  var b = prompt("DDD", "")
+if (a>b)
+  c=a
+else
+  c=b
+alert(c);
+//
+ var x = prompt("SSS", "")
+ var y = prompt("DDD", "")
+ var c
+ if (x>y) {
+   c=x
+   x=y
+   y=c
+ }
+alert (x)
+alert (y)
+//
+var x = prompt("SSS", "")
+if (0) {
+  console.log("привет")
+}
+//
+var a = prompt("SSS", "")
+var b = prompt("DDD", "")
+var c = prompt("xq", "")
+var d
+if (a>b) {
+  d=a
+} else {
+    d=b
+} if (c>d) {
+ d=c
+}
+//
+var ageMA = +prompt("введите возраст мамы", "")
+var ageFA = +prompt("введите возраст папы", "")
+if (ageMA>ageFA) {
+  alert ("Мама старше папы")
+} else {
+  if (ageMA<ageFA){
+    alert("Папа старше мамы")
+  }
+  else  {
+    alert("одинаковый возраст")
+  }
+}*/
+//
+var n1 =+prompt("Ввод первого значения")
+var sign =prompt("Выберите действие(сложение/вычитание/умножение/деление)")
+var n2 =+prompt("ввод второго значения")
+var res
+if (sign=="сложение"){
+res=n1 + n2
+alert(res)
+} else if(sign=="вычитание"){
+ res=n1 - n2
+ alert(res)
+} else if(sign== "умножение"){
+ res=n1*n2
+ alert(res)
+} else if(sign== "деление"){
+ if(n2>0){
+   res=n1/n2
+   alert(res)}
+   else if (n2=="0")
+   alert("Нельзя делить на ноль")
+ }
+    </script>
+</body>
+</html>
