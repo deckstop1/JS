@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Viewport" content="Widh-device-width, inital-scale-1.0">
+  <meta http-equiv="S-UA-compatible" content="ie=edge">
+  <title>JavaScript</title>
+<script type="text/javascript">
+
+  function sum(){
+       a=promt("введите a")
+       b=promt("введите b")
+       c=a+b
+       alert(c)
+</script>
+</head>
+<body>
+   <input type="button" value="УПРАЖНЕНИЕ 1" onclick="sum()">
+</body>
+</html>
+
+                        ==2==
+                        
+   function twoPow(a){
+   a = Math.pow(+prompt('Введи число'), 2);
+     alert(a);}
+
+
+                        ==3==
+           
+           function averageArr(){
+            
+              var arr = [2,4,6,8,10]
+                  var sum = 0
+          
+                  for(var i = 0; i < array.length; i++){
+        sum += array[i];
+        }
+                a = sum/arr.length;
+              console.log(a);
+
+                      ==4==
+                      
+          function yourAge(){
+       let age = prompt('Введите возраст')
+       if(age >= 1 && age <= 13)       console.log("${age} - детство");
+       else if(age >= 14 && age <= 25) console.log("${age} - юность");
+       else if(age >= 26 && age <= 69) console.log("${age} - зрелость");
+       else if(age >= 70)              console.log("${age} - старость");
+       else console.log("Это не возраст");}
+
+                     ==5==
+                     
+       function maxValue(){
+          var arr = [-2, 4, 216, -8, 10, -114, 14, 1]
+          maxValue = 0
+          for(var i = 0; i >-10 && i<= 10; i++){
+             if(i>maxValue)
+             maxValue =array[i];
+           }
+           console.log(maxValue);
+
+          
